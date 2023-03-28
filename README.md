@@ -2,7 +2,7 @@
 
 ## Java
 
-* [Important Interview Questions](README.md)
+* [Important Interview Questions](Java.md)
 
 ## Database
 
