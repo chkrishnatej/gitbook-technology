@@ -1,14 +1,22 @@
 # Questions
 
-* How many connections can a server hold?
+<details>
 
+<summary>Maximum number of connections a server can hold</summary>
 
+There is no upper limit on the number of connections a server can hold. It depends on the CPU and memory.
+
+</details>
 
 <details>
 
 <summary>Maximum number of connections a client can make to the server</summary>
 
-![](<../.gitbook/assets/image (7).png>) 64000 ish
+You can make around 64000ish connections from one IP with source port to server. This is a limit because, in the transport layer(L4), the source port address is 16 bits, so `2^16` is **65,536.** Excluding reserved ports, a client can make a maximum of 64000ish connections to the server.
+
+[https://stackoverflow.com/questions/21253474/source-port-vs-destination-port](https://stackoverflow.com/questions/21253474/source-port-vs-destination-port)
+
+![](<../.gitbook/assets/Screenshot 2023-03-28 at 8.42.29 PM.png>)
 
 </details>
 
