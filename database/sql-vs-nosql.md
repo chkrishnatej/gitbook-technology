@@ -2,7 +2,7 @@
 
 Applications which are generally available are multi-tenant applications. Which means there are multiple layers.
 
-![N-tier architecture](<../.gitbook/assets/image (3).png>)
+![N-tier architecture](<../.gitbook/assets/image (4).png>)
 
 Scaling of a service depends on how fast and cheap it's easier to scale the logical tier and data tier. The logical tier which generally resides behind a Load Balancer, can be horizontally scaled by adding more server to serve the requests.
 
