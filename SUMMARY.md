@@ -1,8 +1,10 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Java
 
-* [Important Interview Questions](Java.md)
+* [Important Interview Questions](java/important-interview-questions.md)
 
 ## Database
 
